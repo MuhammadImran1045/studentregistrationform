@@ -1,0 +1,29 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  h1
+  {
+
+    color: purple;text-align: center;font-family: verdana;font-size: 20px;
+  }
+
+  table
+  {
+
+    background-color:purple;font-family: verdana;color:white;
+  }
+
+.button
+  {
+    background-color:purple;font-family: verdana;
+
+  }
+  div
+  {
+
+    background-color: purple;
+  }

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <img src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png"
+        alt="Saylani Welfare Trust Salogan" class="center" />
+
+    <h1><b><u>STUDENT REGISTRATION FORM</u></b></h1>
+
+    
+    <form action="submitform.html">
+<div>
+    <table> 
+            <tr>
+                <td><br/>FIRST NAME</td>
+
+                <td><br/><input type="text" name="FIRST NAME" size="30" value="enter first name" maxlength="30" />( max 30 characters from a-z and A-Z )</td>
+               
+            </tr>
+
+            <tr>
+                <td><br/>LAST NAME</td>
+                <td><br/><input type="text" name="LAST NAME" size="30" maxlength="30" value="enter last name" /> ( max 30 characters from a-z and A-Z )</td>
+               
+            </tr>
+            <tr>
+                <td><br/>DATE OF BIRTH</td>
+                <td><br/><input type="date" id="birthday" size="30" name="birthday"></td>
+            </tr>
+            <tr>
+                <td><br/>EMAIL ID</td>
+                <td><br/><input type="text" name="EMAIL ID" size="30" maxlength="30" value="enter email address" /></td>
+               
+            </tr>
+
+            
+            <tr>
+                <td><br/>MOBILE NUMBER</td>
+                <td><br/><input type="text" name="MOBILE NUMBER" size="30" maxlength="30" value="enter mobile number" /> ( 10 digit number )</td>
+               
+            </tr>
+
+            <tr>
+                    <td><br/>
+                        GENDER
+                    </td>
+                    <td><br/>
+                        <input type="radio" name="GENDER" value="Male"checked="checked" /> Male
+                        <input type="radio" name="GENDER" value="Female" />Female
+                    </td>
+
+            </tr>
+
+            <tr>
+                <td><br/>ADDRESS</td>
+                <td><br/><textarea name="comments" cols="50" rows="4"></textarea></td>
+               
+            </tr>
+            
+        
+            <tr>
+                <td><br/>CITY</td>
+                <td><br/><input type="text" name="CITY" size="30" maxlength="30" value="enter city name" /> ( max 30 characters from a-z and A-Z )</td>
+               
+            </tr>
+
+            <tr>
+                <td><br/>PIN CODE</td>
+                <td><br/><input type="text" name="MOBILE NUMBER" size="30" maxlength="30" value="enter pincode"/> ( 06 digit number )</td>
+               
+            </tr>
+
+            <tr>
+                <td><br/>STATE</td>
+                <td><br/><input type="text" name="STATE" size="30" maxlength="30" value="enter state" /> ( max 30 characters from a-z and A-Z )</td>
+               
+            </tr>
+
+            <tr>
+                <td><br/>COUNTRY</td>
+                <td><br/><input type="text" name="COUNTRY" size="30" maxlength="30" value="enter country"/> </td>
+               
+            </tr>
+        
+            <tr>
+                <td><br/>HOBBIES</td>
+                <td><br/>Drawing:<input type="checkbox" value="drawing" name="Answer"> 
+                    Drawing:<input type="checkbox" value="Drawing" name="Answer"> 
+                    Singing:<input type="checkbox" value="Singing" name="Answer"> 
+                    Dancing:<input type="checkbox" value="Dancing" name="Answer"> 
+                    Sketching:<input type="checkbox" value="Sketching" name="Answer"> 
+                    Others:<input type="checkbox" value="Others" name="Answer"> 
+                    <input type="text" name="Others" size="15" maxlength="30" />
+                
+                </td>
+            </tr>
+        </table>
+            <table>
+          
+            <tr>
+                    <td><br/>QUALIFICATION</td>
+                    <td><br/>SI.No.</td>
+                    <td><br/>Examination</td>
+                    <td><br/>Board</td>
+                    <td><br/>Percentage</td>
+                    <td><br/>Year of Passing</td>
+                
+             </tr>
+             <tr>
+                    <td rowspan="4"><br/></td>
+                    <td><br/>1</td>
+                    <td><br/>Class X</td>
+                    <td><br/><input type="text" name="Board" size="10" maxlength="30" /></td>
+                    <td><br/><input type="number" name="Percentage" size="10" maxlength="30" /></td>
+                    <td><br/><input type="number" name="Year of Passing" size="10" maxlength="30" /></td>
+             </tr>
+            <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" name="Board" size="10" maxlength="30" /></td>
+                    <td><input type="number" name="Percentage" size="10" maxlength="30" /></td>
+                    <td><input type="number" name="Year of Passing" size="10" maxlength="30" /></td>
+                
+             </tr>
+            <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="Board" size="10" maxlength="30" /></td>
+                    <td><input type="number" name="Percentage" size="10" maxlength="30" /></td>
+                    <td><input type="number" name="Year of Passing" size="10" maxlength="30" /></td>
+                    
+             </tr>
+            <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text" name="Board" size="10" maxlength="30" /></td>
+                    <td><input type="number" name="Percentage" size="10" maxlength="30" /></td>
+                    <td><input type="number" name="Year of Passing" size="10" maxlength="30" /></td>
+            </tr>
+            <tr >
+                  <td colspan="3"></td>
+                  <td>(10 Char max)</td>
+                  <td>(upto 2 decimal)</td>
+            </tr>
+        
+        </table>
+            <tr>
+            <td><br/>COURSES APPLIED FOR</td>
+            <td><br/>BCA:<input type="checkbox" value="BCA" name="Answer"> 
+                B.Com:<input type="checkbox" value="B.Com" name="Answer"> 
+                B.Sc:<input type="checkbox" value="B.Sc" name="Answer"> 
+                B.A:<input type="checkbox" value="B.A" name="Answer"> </td>
+          </tr>
+
+                
+                
+            
+            
+
+                
+           
+</table>
+<center><a class="button" ><button>Submit</button></a><input type="reset" value="Reset"></center>
+</div>
+
+    </form>
+
+  
+   
+</body>
+
+</html>
